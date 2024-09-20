@@ -15,7 +15,7 @@ class _ListaNotasScreenState extends State<ListaNotasScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Mis Notas'),
-        backgroundColor: const Color.fromARGB(255, 234, 124, 14),
+        backgroundColor: const Color(0xffffa07a),
       ),
       body: ListView.builder(
         itemCount: notas.length,
@@ -24,9 +24,9 @@ class _ListaNotasScreenState extends State<ListaNotasScreen> {
             padding: const EdgeInsets.all(8.0),
             child: Container(
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 252, 2, 2),
+                color: const Color(0xFFEFa07a),
                 border: Border.all(
-                  color: const Color.fromARGB(255, 235, 114, 8),
+                  //Color: const Color(0xFFFFA07A),
                   width: 1.5,
                 ),
                 borderRadius: BorderRadius.circular(10.0),
